@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding: 0 22px 0 20px;
+  flex-shrink: 0;
+  background-color: #0067a3;
+}
+
+header h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+@media (max-width: 430px) {
+  header {
+    height: 80px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 10px;
+    background-color: #0079bf;
+  }
+
+  header h1 {
+    display: none;
+  }
+}

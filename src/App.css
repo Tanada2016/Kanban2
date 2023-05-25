@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}

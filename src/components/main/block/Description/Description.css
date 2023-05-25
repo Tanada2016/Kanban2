@@ -1,0 +1,58 @@
+.desc-page {
+  padding: 22px 26px 20px 22px;
+}
+
+.desc {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.desc-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 17px 23px 35px 28px;
+}
+
+.desc-header h2 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.close {
+  margin-top: 12px;
+}
+
+.close::after,
+.close::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 1px;
+  background-color: black;
+}
+
+.close::after {
+  transform: rotate(45deg);
+}
+
+.close::before {
+  transform: rotate(-45deg);
+}
+
+.desc p {
+  max-height: 100%;
+  max-width: 621px;
+  margin-left: 28px;
+  margin-bottom: 17px;
+  margin-right: 23px;
+  border: none;
+  resize: none;
+  cursor: pointer;
+}

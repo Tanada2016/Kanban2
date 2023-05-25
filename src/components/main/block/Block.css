@@ -1,0 +1,159 @@
+.block {
+  width: 282px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12px 0px 8px 12px;
+  background-color: #ebecf0;
+}
+
+.block h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.block .wrapper {
+  max-height: 73vh;
+  overflow: auto;
+  padding-right: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: #cbcbcb #fff;
+}
+
+.block .wrapper::-webkit-scrollbar {
+  width: 12px;
+}
+
+.block .wrapper::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.block .wrapper::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #cbcbcb;
+}
+
+.block .content-card {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 7px 8px;
+  background-color: #fff;
+  color: #000000;
+  word-break: break-all;
+  cursor: pointer;
+}
+
+.block .content-card:last-of-type {
+  margin-bottom: 17px;
+}
+
+.block .add-button {
+  display: inline-block;
+  width: 102px;
+  height: 29px;
+  border: 0;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5e6c84;
+  padding-top: 3px;
+  box-sizing: border-box;
+  background-color: #ebecf0;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.block .add-button:hover {
+  background: #ffffff;
+}
+
+.block .add-button[disabled] {
+  color: #a8a8a8;
+  cursor: default;
+  background: none;
+}
+
+.block .add-button img {
+  margin-right: 4px;
+}
+
+.block .add-issue {
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  background: #ffffff;
+}
+
+.block .add-issue input {
+  width: 234px;
+  height: 28px;
+  margin: 0px 8px 0 8px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 21px;
+  padding-bottom: 0;
+}
+
+.block .add-issue input:focus {
+  border: none;
+}
+
+.block .move-issue {
+  width: 258px;
+  height: 35px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  appearance: none;
+  padding: 6px 7px;
+  outline: none;
+  background: #ffffff;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACiSURBVHgBpZIBDcIwEEUfDibhHICESpkDcDCcMJQgAQkLCrDAXdaFpena7vaSnzRteu2/fwCiGjjOEGvRqd6qG34uqmkpSFx8VQEfVqxPN0MsKuzDrD62Ds222e9oQ0is5hhLLyZkraa0hnRVvWhEKIe0nAs7CIVL1pI7DnIh9cy9czPyD0mopHqijv3Omv9UnVUfnHbXCHM/J9pntEqgYeZ+IXUfmJklgEEAAAAASUVORK5CYII=");
+  background-repeat: no-repeat;
+  background-position-x: 229px;
+  background-position-y: 50%;
+}
+
+.block .move-issue option:checked,
+.block .move-issue option:default {
+  background-color: #dedede;
+}
+
+.block .submit {
+  width: 102px;
+  height: 29px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 21px;
+  background: #0079bf;
+  text-align: center;
+  color: #ffffff;
+}
+
+.block .submit:hover {
+  color: #ebecf0;
+  cursor: pointer;
+}

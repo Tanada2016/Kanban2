@@ -1,0 +1,47 @@
+.menu-button {
+  transition: transform 0.3s;
+}
+
+.menu-button.opened {
+  transform: rotate(180deg);
+}
+
+.user-menu {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 60px;
+  right: 9px;
+  width: 134px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.user-menu::before {
+  width: 11px;
+  height: 11px;
+  top: -6px;
+  left: 77px;
+  display: block;
+  position: absolute;
+  content: "";
+  background-color: #ffffff;
+  transform: rotate(45deg);
+}
+
+.user-menu a {
+  margin-left: 7px;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #000;
+  transition: color 100ms ease-in-out;
+}
+
+.user-menu a:hover {
+  color: #5e6c84;
+}
+
+.user-menu a:last-of-type {
+  margin-bottom: 8px;
+}
